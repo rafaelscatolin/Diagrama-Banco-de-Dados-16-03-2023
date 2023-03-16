@@ -1,0 +1,34 @@
+1)    Construa
+o modelo de entidade e relacionamento (MER) para o controle acadêmico de uma
+universidade conforme descrição abaixo:
+
+
+a.     Deseja-se
+manter informações sobre alunos, cursos, disciplinas e departamentos;
+
+
+b.     Além
+disso, deseja-se manter informações sobre a associação de alunos e cursos, de
+disciplinas e cursos, de disciplinas e departamentos, bem como de disciplinas e
+suas disciplinas pré-requisito;
+
+
+c.     Cada
+disciplina possui exatamente um departamento responsável, e um departamento é
+responsável por muitas disciplinas, inclusive por nenhuma;
+
+
+d.     Uma
+disciplina pode possuir diversos pré-requisitos, inclusive nenhum. Uma
+disciplina pode ser pré-requisito de muitas outras disciplinas, inclusive de
+nenhuma;
+
+
+e.     Uma
+disciplina pode aparecer no currículo de muitos cursos (inclusive de nenhum) e
+um curso pode possuir muitas disciplinas em seu currículo (inclusive nenhuma);
+
+
+f.      Um
+aluno está inscrito em exatamente um curso e um curso pode ter nele inscritos
+muitos alunos (inclusive nenhum)
